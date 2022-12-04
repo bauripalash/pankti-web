@@ -15,12 +15,12 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v3
+      - uses: nikeee/setup-pandoc@v1
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: pandoc & build
-        uses: docker://pandoc/core:2.9
         run: bash ./build.sh
 
       - name: Deploy
