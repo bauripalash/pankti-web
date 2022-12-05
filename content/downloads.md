@@ -1,6 +1,6 @@
----
-title: Downloads
----
++++
+title = "Downloads"
++++
 
 ## Download Pankti
 
@@ -16,4 +16,3 @@ title: Downloads
     * Windows 64bit -> Coming Soon
     * Windows 32bit -> Coming Soon
     * Android -> [Download from Play Store](https://play.google.com/store/apps/details?id=in.palashbauri.panktimob)
-    

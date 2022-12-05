@@ -1,0 +1,27 @@
+# The URL the site will be built for
+base_url = "https://pankti.palashbauri.in"
+title = "Pankti Programing"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[languages.bn]
+title = "পংক্তি প্রোগ্রামিং"
+generate_feed = true
+
+
+
+[markdown]
+highlight_code = false
+
+[extra]
+    navs = [
+        { title = "Home" , title_bn = "প্রথম" , link = "/" , link_bn = "/bn" },
+        { title = "Documentation" , title_bn= "শেখা যাক" , link = "/docs" , link_bn = "/bn/docs" },
+        { title = "Downloads" ,  title_bn = "ডাউনলোড" , link = "/downloads" , link_bn = "/bn/downloads" },
+        { title = "Play Online" , title_bn = "খেলা যাক" , link = "/play" , link_bn = "/bn/play" }
+    ]
+# Put all your custom variables here

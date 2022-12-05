@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+
+  {% if lang == "bn" %}
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    html {
+      font-family: 'Noto Serif Bengali', sans-serif !important;
+    }
+  </style>
+
+  {% endif %}
+
+  <title> {% block title %}{% endblock %} - {{ config.title }} </title>
+      {% block header %} {% endblock  %}
+</head>
+
+<body>
+
+
+
+     <nav>
+     {% if config.extra.navs %}
+
+        {% for menu in config.extra.navs %}
+
+        {% if lang == "en" %}
+
+        <a href="{{ menu.link | safe }}">{{ menu.title }}</a>
+
+        {% elif lang == "bn" %}
+          <a href="{{ menu.link_bn | safe }}">{{ menu.title_bn }}</a>
+        {% endif %}
+        {% endfor %}
+
+        {% if lang == "en" %}
+
+        <a href="/bn">বাংলা</a>
+
+        {% elif lang == "bn" %}
+          <a href="/">English</a>
+        {% endif %}
+    {% endif %}
+
+
+    </nav>
+
+
+      {% block content %} {% endblock %}
+
+    <hr/>
+    <footer>
+    {% block footer %} {% endblock %}
+    <p>Made by <a href="https://palashbauri.in">Palash Bauri</a> 🇮🇳</p>
+    </footer>
+</body>
+
+</html>
