@@ -7,6 +7,8 @@ page_template = "page.html"
 
 ## 📖 Let's Learn Pankti:
 
+[Read In Bengali](/bn/docs)
+
 
 * 📗 Basics
     * [Variables](#)
