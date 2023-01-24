@@ -11,7 +11,7 @@ title = "পংক্তি শেখা যাক"
     * [চল রাশি](/bn/docs/variables)
 * Loops & Conditions
     * [যদি নাহলে (If else)](/bn/docs/if-else)
-    * [যতক্ষণ (While)](#)
+    * [যতক্ষণ (While)](/bn/docs/while-loop)
 * হাতে কলমে:
     * [হ্যালো ওয়ার্ল্ড](/bn/docs/tutorials/hello)
 
