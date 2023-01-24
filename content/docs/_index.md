@@ -11,7 +11,7 @@ page_template = "page.html"
 
 
 * 📗 Basics
-    * [Variables](#)
+    * [Variables](/docs/variables)
     * [Assignments](#)
 * Loops & Conditions
     * [If else](#)
