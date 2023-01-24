@@ -4,6 +4,7 @@ title = "Pankti Programing"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
+highlight_theme = "OneHalfLight"
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
@@ -13,9 +14,6 @@ title = "পংক্তি প্রোগ্রামিং"
 generate_feed = true
 
 
-
-[markdown]
-highlight_code = false
 
 [extra]
     navs = [
