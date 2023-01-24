@@ -13,6 +13,10 @@ build_search_index = false
 title = "পংক্তি প্রোগ্রামিং"
 generate_feed = true
 
+[markdown] 
+# When set to "true", all code blocks are highlighted. 
+highlight_code = false
+
 
 
 [extra]
