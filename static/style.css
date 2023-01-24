@@ -158,15 +158,18 @@ nav a:hover{
   color:gray;
   font-size: 10px;
 }
+code{
+	font-family:  'Noto Serif Bengali' , monospace ;
+}
 pre {
   padding: 1rem;
-  overflow: auto;
+  overflow-x: scroll;
 }
 pre[data-linenos] {
-  padding: 1rem 0;
+  padding: 1rem 1rem;
 }
 pre table td {
-  padding: 0;
+  padding: 0 0.5rem;
 }
 
 pre table td:nth-of-type(1) {

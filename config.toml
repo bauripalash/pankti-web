@@ -4,7 +4,8 @@ title = "Pankti Programing"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
-highlight_theme = "gruvbox-light"
+#highlight_theme = "gruvbox-light"
+#highlight_theme = "css"
 
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
@@ -14,9 +15,8 @@ title = "পংক্তি প্রোগ্রামিং"
 generate_feed = true
 
 [markdown] 
-# When set to "true", all code blocks are highlighted. 
-highlight_code = false
-
+	highlight_code = true
+	highlight_theme = "OneHalfLight"
 
 
 [extra]
