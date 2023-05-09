@@ -4,7 +4,7 @@ title = "প্রথম পাতা"
 
 
 
-![](/pankti_cover.jpg)
+![](/pankti_cover.png)
 
 ## পরিচিতি
 

@@ -4,40 +4,44 @@ title = "Home"
 
 
 
-![Pankti Programming Language](/pankti_cover.jpg)
+![Pankti Programming Language](/pankti_cover.png)
 
-
-## Introductions
-
-Pankti is an interpreted dynamically typed programming language for programming in the Bengali language. Pankti is designed with Bengali in mind but can also be used with English. As matter of fact, the implementation is so easy to modify that it can be used to program in any language with very little change to the source code of the pankti interpreter. Pankti is a potential multilingual programming language
+## Introduction
+Pankti is an dynamically typed programming language for programming in Bengali,
+English, Bengali phonetic as well as Combination of both. Pankti is an easy to 
+learn programming language but it was also powerful language to create useful 
+and fast programs.
 
 ## Why
-My mother tongue is Bengali. Previously there have been few attempts to build a Bengali programming language but most of them have no practical usage, so I ventured into the dark world of language design.
+My mother tongue is Bengali. Previously there have been few attempts to build 
+a Bengali programming language but most of them have no practical usage, so I 
+ventured into the dark world of language design.
 
 ## Language Features
-###  Data Types:
-* Strings : `"পলাশ বাউরি"` , `"ভাবনা"`...
-* Numbers:
-    - Integers : `99999` , `1234567890` , `১২৩৪৫৬৭৮৯০`
-    - Floats : `1.23` , `২০.০২`
-* Dictionaries/Hashmap : `{ "নাম": "পলাশ", "বয়স" : 20  }`
-* Arrays: `["রবিবার", "সোমবার" , 21 , 22 , ৯৯]`
-* Booleans: `সত্য`, `মিথ্যা`
+### Data Types:
+* Strings/স্ট্রিং:   `"Hello world"`, `"pankti"`, `পলাশ বাউরি `
+* Numbers/সংখ্যা: `100`, `3.14`, `1234`, `১২৩৪৫৬৭৮৯০`, `৩.১৪`, `৯9.9৯`
+* Dictionaries/HashMap/Map/ম্যাপ: `{"name" : "palash" , "time":7.22 , "পদবি" : "বাউরি" }`
+* Array/তালিকা: `["রবিবার", "Monday", 1 , 2.34]`
+* Booleans: `true`, `false`, `সত্যি`, `মিথ্যা`
 
-### Functions:
-* Example:
+## Variables:
 ```go
-ধরি ঘুমানো = একটি কাজ(নায়ক)
-    দেখাও(নায়ক + " ঘুমোচ্ছে!")
-শেষ
-
-ঘুমানো("পলাশ বাউরি")
-```
-```
-Output: পলাশ বাউরি ঘুমোচ্ছে!
-```
-### Assignments:
-* Examples:
-```go
+ধরি নাম = "পলাশ"
+ধরি পুরোনাম = নাম + " বাউরি"
 ধরি মাস = "বৈশাখ"
+ধরি সাল = ২০২৩
 ```
+
+## Functions:
+```go
+    কাজ ঘুমানো(নায়ক)
+        দেখাও নায়ক + " এখন ঘুমোচ্ছে!"
+    শেষ
+    ঘুমানো("পলাশ")
+```
+
+```go
+Output: পলাশ এখন ঘুমোচ্ছে
+```
+
