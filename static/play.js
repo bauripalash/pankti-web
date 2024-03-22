@@ -182,7 +182,7 @@ function main(wasm){
 }
 
 
-fetch("./pankti.wasm")
+fetch("/pankti.wasm")
 	.then((resp) => WebAssembly.instantiateStreaming(resp , importObject))
 	.then((result) => {
 		wasm = result.instance.exports;
