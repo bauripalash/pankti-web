@@ -1,7 +1,4 @@
 +++
 title = "Play Online"
+template = "play.html"
 +++
-
-## Try and Play with Pankti Online
-
-**Coming Soon!**

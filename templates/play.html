@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %} {{ page.title }} {% endblock title %}
+
+{% block header %} 
+	<link rel="stylesheet" href="/play_style.css">
+{% endblock header %}
+
+{% block content %}
+<br/>
+		<div class="main">
+
+			<div id="container" class="container">
+				<div id="line-numbers" class="container_lines"></div>
+ 				<textarea 
+					class="container_textarea"
+					id="codeinput"
+					autocapitalize="off"
+					autocomplete="off"
+					autocorrect="off"
+					spellcheck="false"
+				></textarea>
+			</div>
+
+			<div id="button_container" class="button_container">
+				<button id="runbtn" class="run_button">Run</button>
+				<button id="clearbtn" class="clear_button">Clear</button>
+			</div>
+
+			<div id="output_container" class="output_container">
+				<textarea 
+					id="output" 
+					class="outputbox" 
+					placeholder="Output"
+					autocapitalize="off"
+					autocomplete="off"
+					autocorrect="off"
+					spellcheck="false"
+				></textarea>
+			</div>
+
+		</div>
+
+{% endblock content %}
+
+{% block script_footer %}
+<script src="/play.js"></script>
+{% endblock %}

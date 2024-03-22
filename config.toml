@@ -24,6 +24,6 @@ generate_feed = true
         { title = "Home" , title_bn = "প্রথম" , link = "/" , link_bn = "/bn" },
         { title = "Documentation" , title_bn= "শেখা যাক" , link = "/docs" , link_bn = "/bn/docs" },
         { title = "Downloads" ,  title_bn = "ডাউনলোড" , link = "/downloads" , link_bn = "/bn/downloads" },
-        { title = "Play Online" , title_bn = "খেলা যাক" , link = "/play" , link_bn = "/bn/play" }
+        { title = "Play Online" , title_bn = "খেলা যাক" , link = "/play" , link_bn = "/play" }
     ]
 # Put all your custom variables here
