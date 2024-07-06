@@ -6,9 +6,10 @@ theme = "hugo-book"
 
 [markup]
 [markup.highlight]
-	style = "igor"
+	style = "catppuccin-latte"
 	lineNos = true
 	lineNumbersInTable = false
+	tabWidth = 4
 [markup.goldmark.renderer]
 	unsafe = true
 
@@ -27,4 +28,6 @@ theme = "hugo-book"
 
 [params]
 	BookRepo = 'https://github.com/bauripalash/pankti-web'
+	BookLogo = 'bokbok_the_heron.png'
+	BookFavicon = 'favicon.png'
 

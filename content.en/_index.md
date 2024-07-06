@@ -9,7 +9,7 @@ type: docs
 
 
 <div class="button-container">
-<a class="getstarted-button" href="/bn/"> Get Started </a>
+<a class="getstarted-button" href="/bn/"> শুরু করা যাক </a>
 </div>
 
 ## Introduction
@@ -32,7 +32,7 @@ ventured into the dark world of language design.
 * Booleans: `true`, `false`, `সত্যি`, `মিথ্যা`
 
 ## Variables:
-```go
+```bash
 ধরি নাম = "পলাশ"
 ধরি পুরোনাম = নাম + " বাউরি"
 ধরি মাস = "বৈশাখ"
@@ -40,13 +40,13 @@ ventured into the dark world of language design.
 ```
 
 ## Functions:
-```go
+```bash
 কাজ ঘুমানো(নায়ক)
     দেখাও নায়ক + " এখন ঘুমোচ্ছে!"
 শেষ
 ঘুমানো("পলাশ")
 ```
 
-```go
+```bash
 Output: পলাশ এখন ঘুমোচ্ছে
 ```

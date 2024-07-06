@@ -6,7 +6,7 @@ title = "ডাউনলোড"
 
 #### ডাউনলোড:
 
-**ভার্সন**: *0.4.0-dev.201* (<small>২৮ই জুন ২০২৪ এ কম্পাইল করা বাইনারি</small>)
+**ভার্সন**: *0.4.0-dev.226* (<small>৬ই জুলাই ২০২৪ এ কম্পাইল করা বাইনারি</small>)
 
 * লিনাক্স: [pankti-linux.zip](/pankti-linux.zip)
 * উইন্ডোজ: [pankti-win.zip](/pankti-win.zip)
