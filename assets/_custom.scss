@@ -48,7 +48,7 @@
   --body-background: #17171c;
   --body-background-tint: none;
 
-  --body-font-color: #dde0bd;
+  --body-font-color: white;
 
   --color-link: #61b8af;
   --color-visited-link: #61b8ae;
@@ -127,10 +127,10 @@ a.start-btn{
     text-decoration: none;
 }
 
-a.start-btn:hover{
+.start-btn:hover{
 
     color: var(--color-link) !important;
-    text-decoration: none;
+    text-decoration: none !important;
 
 }
 
