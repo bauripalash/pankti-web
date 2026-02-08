@@ -25,12 +25,13 @@ path = 'github.com/alex-shpak/hugo-book'
   unsafe = true
 
 [markup.highlight]
-  style = 'base16-snazzy'
+    codeFences = false
+  #style = 'base16-snazzy'
 
 [menu]
 [[menu.home]]
   name = 'Documentation'
-  pageRef = '/docs/'
+  url = '/bn/docs/'
   weight = 1
 
 [[menu.home]]
@@ -40,6 +41,9 @@ path = 'github.com/alex-shpak/hugo-book'
 
 
 [params]
-    BookTheme = 'dark'
+    BookTheme = 'light'
     BookLogo = "panktilogo.png"
     BookFavicon = "panktilogo.png"
+
+    [params.pankti]
+    DefaultTheme = 'dark'
