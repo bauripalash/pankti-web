@@ -11,12 +11,12 @@ path = 'github.com/alex-shpak/hugo-book'
 [languages.bn]
 	title = "পঙক্তি প্রোগ্রামিং ভাষা"
 	languageName = 'Bengali'
-	contentDir = 'content.bn'
+	contentDir = 'bengali'
 [languages.bn.params]
 	weigth = 2
 [languages.en]
 	languageName = 'English'
-	contentDir = 'content.en'
+	contentDir = 'english'
 [languages.en.params]
 	weigth = 1
 
